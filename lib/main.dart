@@ -152,6 +152,17 @@ class MyApp extends StatelessWidget {
           ),
           tooltip: 'Navigation menu',
         ),
+
+        actions: const [
+          IconButton(
+              onPressed: null,
+              icon: Icon(
+                Icons.notifications_active_outlined,
+                color: Colors.white60,
+                size: 25,
+              ),
+          ),
+        ],
       ),
 
       body: Center(
